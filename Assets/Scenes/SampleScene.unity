@@ -530,9 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 889cadae1e68dcb4485b4ba5dcbf2ed7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 500
-  scoreText: {fileID: 1753446358}
-  winText: {fileID: 990398017}
+  player: {fileID: 1177869446}
 --- !u!54 &963194230
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1030,7 +1028,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!135 &1177869447
 SphereCollider:
   m_ObjectHideFlags: 0
